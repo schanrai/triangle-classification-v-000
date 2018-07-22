@@ -10,6 +10,8 @@ class Triangle
     @length_3 = length_3
   end
 
+#symbols denoted by : mean that this string instance is the same and cannot be changed. it's the same instance of this particular string object.
+#that's why symbols are used for labels that people don't ever want touched.
   def kind
     zeroes
     inequality
@@ -47,4 +49,4 @@ end
 test = Triangle.new(-5, 4, 3)
 test.kind
 puts test.type
-=end 
+=end
