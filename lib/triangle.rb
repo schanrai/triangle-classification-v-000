@@ -13,7 +13,7 @@ class Triangle
 #symbols denoted by : mean that this string instance is the same and cannot be changed. it's the same instance of this particular string object.
 #that's why symbols are used for labels that people don't ever want touched.
   def kind
-    zeroes
+    zeroes #calling the valid methods defined below
     inequality
     if @length_1 == @length_2 && @length_1 == @length_3
       self.type = :equilateral
