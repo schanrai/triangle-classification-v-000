@@ -41,3 +41,6 @@ class Triangle
     end
   end
 end
+
+
+test = Triangle.new(7, 3, 2)
