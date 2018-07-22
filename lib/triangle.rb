@@ -42,6 +42,9 @@ class Triangle
   end
 end
 
+=begin
+#test it out with this and run file (ruby lib/triangle.rb)
 test = Triangle.new(-5, 4, 3)
 test.kind
 puts test.type
+=end 
