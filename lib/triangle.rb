@@ -44,3 +44,4 @@ end
 
 test = Triangle.new(3, 3, 3)
 test.kind
+puts test.type 
