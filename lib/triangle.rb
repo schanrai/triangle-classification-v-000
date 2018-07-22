@@ -37,7 +37,7 @@ class Triangle
 
   class TriangleError < StandardError
     def message
-      "you twat - you suck at coding!"
+      puts "you twat - you suck at coding!"
     end
   end
 end
