@@ -24,7 +24,7 @@ class Triangle
     end
   end
 
-
+#seperate the validity checks into other methods for code cleanliness
   def zeroes
     if @length_1 <= 0 || @length_2 <= 0 || @length_3 <= 0
         raise TriangleError
