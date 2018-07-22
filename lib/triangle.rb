@@ -42,5 +42,5 @@ class Triangle
   end
 end
 
-test = Triangle.new(7, 3, 2)
+test = Triangle.new(3, 3, 3)
 test.kind
